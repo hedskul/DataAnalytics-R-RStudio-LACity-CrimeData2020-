@@ -1,0 +1,59 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+RStudio Desktop
+https://posit.co/download/rstudio-desktop/
+
+GitHub Desktop - Git
+https://github.com/apps/desktop
+
+RSocrata - R
+A tool for downloading and uploading Socrata datasets
+https://github.com/Chicago/RSocrata
+
+Open A Data & Insights Dataset In. - Data & Insights Knowledge Base
+https://support.socrata.com/hc/en-us/articles/115010730868-Open-A-Data-Insights-Dataset-In
+
+Crime Data from 2020 to Present
+https://catalog.data.gov/dataset/crime-data-from-2020-to-present
+https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data
+
+Data visualization with ggplot2 - Cheat Sheet
+https://rstudio.github.io/cheatsheets/html/data-visualization.html
+
+Data transformation with dplyr - Cheatsheet
+https://rstudio.github.io/cheatsheets/html/data-transformation.html
+
+Data import with the tidyverse - Cheatsheet
+https://rstudio.github.io/cheatsheets/html/data-import.html
+
+Apply functions with purrr - Cheatsheet
+https://rstudio.github.io/cheatsheets/html/purrr.html
+
+rmarkdown - Cheatsheet
+https://rstudio.github.io/cheatsheets/html/rmarkdown.html
+
+Publish and Share with Quarto - Cheatsheet
+https://rstudio.github.io/cheatsheets/html/quarto.html
+
+REST APIs with plumber - Cheatsheet
+https://rstudio.github.io/cheatsheets/html/plumber.html
+
+Dates and times with lubridate :: Cheatsheet
+https://rstudio.github.io/cheatsheets/html/lubridate.html
