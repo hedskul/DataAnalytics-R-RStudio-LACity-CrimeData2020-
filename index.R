@@ -88,10 +88,24 @@ la_crime_data <- read_csv(
 );
 
 ?names
-# Functions to get or set the names of an object.
-names(x)
+# # Functions to get or set the names of an object.
+# names(x)
 
 names(la_crime_data);
+
+?slice
+# slice {dplyr}
+# Subset rows using their positions
+# slice(.data, ..., .by = NULL, .preserve = FALSE)
+
+clean_la_crime_data <- la_crime_data |>
+  select("DATE OCC", "AREA NAME", "Crm Cd Desc", "Vict Age", "Vict Sex", "LAT", "LON");
+head(clean_la_crime_data)
+
+x <- unique(la_crime_data$`Crm Cd`);
+unique(la_crime_data$`Crm Cd Desc`);
+
+str(la_crime_data);
 
 ?head
 # # Return the First or Last Parts of an Object
@@ -135,6 +149,17 @@ la_crime_data[248, 23];
 # `Crm Cd 3`
 # <lgl>     
 #   1 NA  
+
+# sd(na_example, na.rm = TRUE);
+# ref <- NHANES |>
+#   filter(AgeDecade == " 20-29", Gender == "female", !is.na(BPSysAve)) |>
+#   summarize(blood_pressure_mean = mean(BPSysAve), blood_pressure_sd = sd(BPSysAve))
+
+str(la_crime_data);
+
+summary(la_crime_data, na.rm = true);
+
+
 
 ?read_csv
 
