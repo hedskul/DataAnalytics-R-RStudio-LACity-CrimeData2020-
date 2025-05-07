@@ -1796,9 +1796,767 @@ Knowledge Base <a href="https://support.socrata.com/hc/en-us/articles/1150107308
 <p>Publish and Share with Quarto - Cheatsheet <a href="https://rstudio.github.io/cheatsheets/html/quarto.html" class="uri">https://rstudio.github.io/cheatsheets/html/quarto.html</a></p>
 <p>REST APIs with plumber - Cheatsheet <a href="https://rstudio.github.io/cheatsheets/html/plumber.html" class="uri">https://rstudio.github.io/cheatsheets/html/plumber.html</a></p>
 <p>Dates and times with lubridate :: Cheatsheet <a href="https://rstudio.github.io/cheatsheets/html/lubridate.html" class="uri">https://rstudio.github.io/cheatsheets/html/lubridate.html</a></p>
+<p>URI Conventions (OData Version 2.0) <a href="https://www.odata.org/documentation/odata-version-2-0/uri-conventions/" class="uri">https://www.odata.org/documentation/odata-version-2-0/uri-conventions/</a></p>
+<p><a href="https://crd230.github.io/lab3.html" class="uri">https://crd230.github.io/lab3.html</a> Lab 3: Spatial Data
+in R</p>
+<p><a href="https://geohub.lacity.org/" class="uri">https://geohub.lacity.org/</a> COVID19 by Neighborhood <a href="https://geohub.lacity.org/datasets/f553fa74cbfe4e49b3a334947298fa34/about" class="uri">https://geohub.lacity.org/datasets/f553fa74cbfe4e49b3a334947298fa34/about</a></p>
+<p>Reading layer
+<code>nghbrhd_data&#39; from data source</code>D:_WORKAnalytics-R-RStudio-LACity-CrimeData2020-_data.shp’
+using driver `ESRI Shapefile’ Simple feature collection with 141
+features and 10 fields Geometry type: POLYGON Dimension: XY Bounding
+box: xmin: 6359577.5 ymin: 1714639.875 xmax: 6514628.5 ymax: 1945542.5
+Projected CRS: NAD83 / California zone 5 (ftUS)</p>
+<div id="homicide-110-homicide" class="section level1">
+<h1>HOMICIDE 110 (Homicide)</h1>
+</div>
+<div id="manslaughter" class="section level1">
+<h1>113 (Manslaughter)</h1>
+</div>
+<div id="rape-121-rape" class="section level1">
+<h1>RAPE 121 (Rape)</h1>
+</div>
+<div id="attempted-rape" class="section level1">
+<h1>122 (Attempted Rape)</h1>
+</div>
+<div id="sexual-penetration-w-foreign-object" class="section level1">
+<h1>815 (Sexual Penetration w/ Foreign Object)</h1>
+</div>
+<div id="oral-copulation" class="section level1">
+<h1>820 (Oral Copulation)</h1>
+</div>
+<div id="sodomy" class="section level1">
+<h1>821 (Sodomy)</h1>
+</div>
+<div id="robbery-210-robbery" class="section level1">
+<h1>ROBBERY 210 (Robbery)</h1>
+</div>
+<div id="robbery---attempted" class="section level1">
+<h1>220 (Robbery - attempted)</h1>
+</div>
+<div id="agg.-assaults-230-adw" class="section level1">
+<h1>AGG. ASSAULTS 230 (ADW),</h1>
+</div>
+<div id="adw-against-lapd-police-officer" class="section level1">
+<h1>231 (ADW against LAPD Police Officer)</h1>
+</div>
+<div id="child-beating" class="section level1">
+<h1>235 (Child beating)</h1>
+</div>
+<div id="dv-236-spousal-beating" class="section level1">
+<h1>DV* 236 (Spousal beating)</h1>
+</div>
+<div id="shots-fired" class="section level1">
+<h1>250 (Shots Fired)</h1>
+</div>
+<div id="shots-fired-inhabited-dwelling" class="section level1">
+<h1>251 (Shots fired inhabited dwelling)</h1>
+</div>
+<div id="brandishing" class="section level1">
+<h1>761 (Brandishing)</h1>
+</div>
+<div id="train-wrecking" class="section level1">
+<h1>926 (Train Wrecking)</h1>
+</div>
+<div id="agg.-assaults-230-adw-1" class="section level1">
+<h1>AGG. ASSAULTS 230 (ADW)</h1>
+</div>
+<div id="adw-against-lapd-police-officer-1" class="section level1">
+<h1>231 (ADW against LAPD Police Officer)</h1>
+</div>
+<div id="child-beating-1" class="section level1">
+<h1>235 (Child beating)</h1>
+</div>
+<div id="dv-236-spousal-beating-1" class="section level1">
+<h1>DV* 236 (Spousal beating)</h1>
+</div>
+<div id="shots-fired-1" class="section level1">
+<h1>250 (Shots Fired)</h1>
+</div>
+<div id="shots-fired-inhabited-dwelling-1" class="section level1">
+<h1>251 (Shots fired inhabited dwelling)</h1>
+</div>
+<div id="brandishing-1" class="section level1">
+<h1>761 (Brandishing)</h1>
+</div>
+<div id="train-wrecking-1" class="section level1">
+<h1>926 (Train Wrecking)</h1>
+</div>
+<div id="simple-assault-435-lynching" class="section level1">
+<h1>SIMPLE ASSAULT** 435 (Lynching)</h1>
+</div>
+<div id="not-incl.-in-part-i-436-lynching---attempted" class="section level1">
+<h1>(Not Incl. in Part I 436 (Lynching - attempted)</h1>
+</div>
+<div id="violent-crime-437-resisting-arrest" class="section level1">
+<h1>Violent Crime) 437 (Resisting Arrest)</h1>
+</div>
+<div id="battery-on-firefighter" class="section level1">
+<h1>622 (Battery on Firefighter)</h1>
+</div>
+<div id="battery-on-police-officer" class="section level1">
+<h1>623 (Battery on Police Officer)</h1>
+</div>
+<div id="battery---misdemeanor" class="section level1">
+<h1>624 (Battery - misdemeanor)</h1>
+</div>
+<div id="other-misd.-assault" class="section level1">
+<h1>625 (Other Misd. Assault)</h1>
+</div>
+<div id="dv-626-spousalcohab-abuse---simple-assault" class="section level1">
+<h1>DV* 626 (Spousal/Cohab Abuse - Simple Assault)</h1>
+</div>
+<div id="child-abuse---simple-assault" class="section level1">
+<h1>627 (Child Abuse - Simple Assault)</h1>
+</div>
+<div id="throwing-substance-at-vehicle" class="section level1">
+<h1>647 (Throwing substance at vehicle)</h1>
+</div>
+<div id="stalking" class="section level1">
+<h1>763 (Stalking)</h1>
+</div>
+<div id="threatening-phone-calls-letters" class="section level1">
+<h1>928 (Threatening Phone Calls / Letters)</h1>
+</div>
+<div id="criminal-threats" class="section level1">
+<h1>930 (Criminal Threats)</h1>
+</div>
+<div id="assaults-agg.-assault-incl.-domestic-viol-other-assault" class="section level1">
+<h1>ASSAULTS = Agg. Assault (Incl. Domestic Viol) + Other Assault</h1>
+</div>
+<div id="part-i-property-crimes" class="section level1">
+<h1>Part I – Property Crimes</h1>
+</div>
+<div id="burglary-310-burglary" class="section level1">
+<h1>BURGLARY 310 (Burglary)</h1>
+</div>
+<div id="burglary---attempted" class="section level1">
+<h1>320 (Burglary - attempted)</h1>
+</div>
+<div id="mvt-gta-510-stolen-vehicle" class="section level1">
+<h1>MVT (GTA)*** 510 (Stolen Vehicle)</h1>
+</div>
+<div id="stolen-vehicle---attempted" class="section level1">
+<h1>520 (Stolen Vehicle - attempted)</h1>
+</div>
+<div id="dwoc" class="section level1">
+<h1>433 DWOC</h1>
+</div>
+<div id="btfv-330-burg-from-vehicle" class="section level1">
+<h1>BTFV 330 (Burg from Vehicle)</h1>
+</div>
+<div id="theft-from-vehicle---950.01-over" class="section level1">
+<h1>331 (Theft from vehicle - $950.01 &amp; over)</h1>
+</div>
+<div id="burg-from-vehicle---attempted" class="section level1">
+<h1>410 (Burg from Vehicle - attempted)</h1>
+</div>
+<div id="theft-from-vehicle---950-under" class="section level1">
+<h1>420 (Theft from vehicle - $950 &amp; under)</h1>
+</div>
+<div id="theft-from-vehicle-attempted" class="section level1">
+<h1>421 (Theft from vehicle attempted)</h1>
+</div>
+<div id="personal-thft-350-theft-from-person" class="section level1">
+<h1>PERSONAL THFT 350 (Theft from person)</h1>
+</div>
+<div id="pursesnatch" class="section level1">
+<h1>351 (Pursesnatch)</h1>
+</div>
+<div id="pickpocket" class="section level1">
+<h1>352 (Pickpocket)</h1>
+</div>
+<div id="drunkroll" class="section level1">
+<h1>353 (Drunkroll)</h1>
+</div>
+<div id="theft-from-person---attempted" class="section level1">
+<h1>450 (Theft from person - attempted)</h1>
+</div>
+<div id="pursesnatch---attempted" class="section level1">
+<h1>451 (Pursesnatch - attempted)</h1>
+</div>
+<div id="pickpocket---attempted" class="section level1">
+<h1>452 (Pickpocket - attempted)</h1>
+</div>
+<div id="drunkroll---attempted" class="section level1">
+<h1>453 (Drunkroll - attempted)</h1>
+</div>
+<div id="other-theft-341-theft---950.01-over" class="section level1">
+<h1>OTHER THEFT 341 (Theft - $950.01 &amp; over)</h1>
+</div>
+<div id="shoplifting---950.01-over" class="section level1">
+<h1>343 (Shoplifting - $950.01 &amp; over)</h1>
+</div>
+<div id="dishonest-employee---grand-theft" class="section level1">
+<h1>345 (Dishonest employee - grand theft)</h1>
+</div>
+<div id="theft---950-under" class="section level1">
+<h1>440 (Theft - $950 &amp; under)</h1>
+</div>
+<div id="theft---attempted" class="section level1">
+<h1>441 (Theft - attempted)</h1>
+</div>
+<div id="shoplifting---950-under" class="section level1">
+<h1>442 (Shoplifting - $950 &amp; under)</h1>
+</div>
+<div id="shoplifting---attempted" class="section level1">
+<h1>443 (Shoplifting - attempted)</h1>
+</div>
+<div id="dishonest-employee---petty-theft" class="section level1">
+<h1>444 (Dishonest employee - petty theft)</h1>
+</div>
+<div id="dishonest-employee---attempted" class="section level1">
+<h1>445 (Dishonest Employee - attempted)</h1>
+</div>
+<div id="till-tap---950.01-over" class="section level1">
+<h1>470 (Till Tap - $950.01 &amp; over)</h1>
+</div>
+<div id="till-tap---950-under" class="section level1">
+<h1>471 (Till Tap - $950 &amp; under)</h1>
+</div>
+<div id="till-tap---attempted" class="section level1">
+<h1>472 (Till Tap - attempted)</h1>
+</div>
+<div id="theft-from-coin-mc---950.01-over" class="section level1">
+<h1>473 (Theft from coin m/c - $950.01 &amp; over)</h1>
+</div>
+<div id="theft-from-coin-mc---950-under" class="section level1">
+<h1>474 (Theft from coin m/c - $950 &amp; under)</h1>
+</div>
+<div id="theft-from-coin-mc---attempted" class="section level1">
+<h1>475 (Theft from coin m/c - attempted)</h1>
+</div>
+<div id="bicycle---stolen" class="section level1">
+<h1>480 (Bicycle - stolen)</h1>
+</div>
+<div id="bicycle---attempted-stolen" class="section level1">
+<h1>485 (Bicycle - attempted stolen)</h1>
+</div>
+<div id="boat---stolen" class="section level1">
+<h1>487 (Boat - stolen)</h1>
+</div>
+<div id="boat---attempted-stolen" class="section level1">
+<h1>491 (Boat - attempted stolen)</h1>
+</div>
+<div id="crm.cd.desc-crm.cd-n" class="section level1">
+<h1>Crm.Cd.Desc Crm.Cd n</h1>
+</div>
+<div id="section" class="section level1">
+<h1><chr> <dbl> <int></h1>
+</div>
+<div id="theft-of-identity-354-62539" class="section level1">
+<h1>1 THEFT OF IDENTITY 354 62539</h1>
+</div>
+<div id="vandalism---felony-400-over-all-church-vandalisms-740-61094" class="section level1">
+<h1>2 VANDALISM - FELONY ($400 &amp; OVER, ALL CHURCH VANDALISMS) 740
+61094</h1>
+</div>
+<div id="vandalism---misdeameanor-399-or-under-745-25381" class="section level1">
+<h1>3 VANDALISM - MISDEAMEANOR ($399 OR UNDER) 745 25381</h1>
+</div>
+<div id="trespassing-888-18428" class="section level1">
+<h1>4 TRESPASSING 888 18428</h1>
+</div>
+<div id="brandish-weapon-761-14533" class="section level1">
+<h1>5 BRANDISH WEAPON 761 14533</h1>
+</div>
+<div id="violation-of-restraining-order-901-11748" class="section level1">
+<h1>6 VIOLATION OF RESTRAINING ORDER 901 11748</h1>
+</div>
+<div id="letters-lewd---telephone-calls-lewd-956-8712" class="section level1">
+<h1>7 LETTERS, LEWD - TELEPHONE CALLS, LEWD 956 8712</h1>
+</div>
+<div id="other-miscellaneous-crime-946-6967" class="section level1">
+<h1>8 OTHER MISCELLANEOUS CRIME 946 6967</h1>
+</div>
+<div id="violation-of-court-order-900-6381" class="section level1">
+<h1>9 VIOLATION OF COURT ORDER 900 6381</h1>
+</div>
+<div id="bunco-grand-theft-662-6185" class="section level1">
+<h1>10 BUNCO, GRAND THEFT 662 6185</h1>
+</div>
+<div id="embezzlement-grand-theft-950.01-over-668-4178" class="section level1">
+<h1>11 EMBEZZLEMENT, GRAND THEFT ($950.01 &amp; OVER) 668 4178</h1>
+</div>
+<div id="battery-with-sexual-contact-860-4164" class="section level1">
+<h1>12 BATTERY WITH SEXUAL CONTACT 860 4164</h1>
+</div>
+<div id="document-forgery-stolen-felony-649-3373" class="section level1">
+<h1>13 DOCUMENT FORGERY / STOLEN FELONY 649 3373</h1>
+</div>
+<div id="vehicle-stolen---other-motorized-scooters-bikes-etc-522-2969" class="section level1">
+<h1>14 VEHICLE, STOLEN - OTHER (MOTORIZED SCOOTERS, BIKES, ETC) 522
+2969</h1>
+</div>
+<div id="discharge-firearmsshots-fired-753-2725" class="section level1">
+<h1>15 DISCHARGE FIREARMS/SHOTS FIRED 753 2725</h1>
+</div>
+<div id="contempt-of-court-903-2722" class="section level1">
+<h1>16 CONTEMPT OF COURT 903 2722</h1>
+</div>
+<div id="arson-648-2568" class="section level1">
+<h1>17 ARSON 648 2568</h1>
+</div>
+<div id="extortion-940-2033" class="section level1">
+<h1>18 EXTORTION 940 2033</h1>
+</div>
+<div id="bunco-petty-theft-664-2027" class="section level1">
+<h1>19 BUNCO, PETTY THEFT 664 2027</h1>
+</div>
+<div id="crm-agnst-chld-13-or-under-14-15-susp-10-yrs-older-812-1771" class="section level1">
+<h1>20 CRM AGNST CHLD (13 OR UNDER) (14-15 &amp; SUSP 10 YRS OLDER) 812
+1771</h1>
+</div>
+<div id="failure-to-yield-890-1714" class="section level1">
+<h1>21 FAILURE TO YIELD 890 1714</h1>
+</div>
+<div id="disturbing-the-peace-886-1514" class="section level1">
+<h1>22 DISTURBING THE PEACE 886 1514</h1>
+</div>
+<div id="child-neglect-see-300-w.i.c.-237-1205" class="section level1">
+<h1>23 CHILD NEGLECT (SEE 300 W.I.C.) 237 1205</h1>
+</div>
+<div id="indecent-exposure-850-1202" class="section level1">
+<h1>24 INDECENT EXPOSURE 850 1202</h1>
+</div>
+<div id="sexunlawfulinc-mutual-consent-penetration-w-frgn-obj-810-1081" class="section level1">
+<h1>25 SEX,UNLAWFUL(INC MUTUAL CONSENT, PENETRATION W/ FRGN OBJ 810
+1081</h1>
+</div>
+<div id="child-annoying-17yrs-under-813-1049" class="section level1">
+<h1>26 CHILD ANNOYING (17YRS &amp; UNDER) 813 1049</h1>
+</div>
+<div id="sex-offender-registrant-out-of-compliance-845-966" class="section level1">
+<h1>27 SEX OFFENDER REGISTRANT OUT OF COMPLIANCE 845 966</h1>
+</div>
+<div id="violation-of-temporary-restraining-order-902-921" class="section level1">
+<h1>28 VIOLATION OF TEMPORARY RESTRAINING ORDER 902 921</h1>
+</div>
+<div id="kidnapping-910-812" class="section level1">
+<h1>29 KIDNAPPING 910 812</h1>
+</div>
+<div id="lewd-conduct-762-714" class="section level1">
+<h1>30 LEWD CONDUCT 762 714</h1>
+</div>
+<div id="unauthorized-computer-access-661-523" class="section level1">
+<h1>31 UNAUTHORIZED COMPUTER ACCESS 661 523</h1>
+</div>
+<div id="human-trafficking---commercial-sex-acts-822-479" class="section level1">
+<h1>32 HUMAN TRAFFICKING - COMMERCIAL SEX ACTS 822 479</h1>
+</div>
+<div id="bomb-scare-755-471" class="section level1">
+<h1>33 BOMB SCARE 755 471</h1>
+</div>
+<div id="child-stealing-922-459" class="section level1">
+<h1>34 CHILD STEALING 922 459</h1>
+</div>
+<div id="peeping-tom-932-381" class="section level1">
+<h1>35 PEEPING TOM 932 381</h1>
+</div>
+<div id="false-imprisonment-434-341" class="section level1">
+<h1>36 FALSE IMPRISONMENT 434 341</h1>
+</div>
+<div id="defrauding-innkeepertheft-of-services-950-under-951-337" class="section level1">
+<h1>37 DEFRAUDING INNKEEPER/THEFT OF SERVICES, $950 &amp; UNDER 951
+337</h1>
+</div>
+<div id="bunco-attempt-666-324" class="section level1">
+<h1>38 BUNCO, ATTEMPT 666 324</h1>
+</div>
+<div id="reckless-driving-438-284" class="section level1">
+<h1>39 RECKLESS DRIVING 438 284</h1>
+</div>
+<div id="child-pornography-814-276" class="section level1">
+<h1>40 CHILD PORNOGRAPHY 814 276</h1>
+</div>
+<div id="cruelty-to-animals-943-269" class="section level1">
+<h1>41 CRUELTY TO ANIMALS 943 269</h1>
+</div>
+<div id="kidnapping---grand-attempt-920-232" class="section level1">
+<h1>42 KIDNAPPING - GRAND ATTEMPT 920 232</h1>
+</div>
+<div id="prowler-933-202" class="section level1">
+<h1>43 PROWLER 933 202</h1>
+</div>
+<div id="false-police-report-439-182" class="section level1">
+<h1>44 FALSE POLICE REPORT 439 182</h1>
+</div>
+<div id="embezzlement-petty-theft-950-under-670-150" class="section level1">
+<h1>45 EMBEZZLEMENT, PETTY THEFT ($950 &amp; UNDER) 670 150</h1>
+</div>
+<div id="pandering-806-141" class="section level1">
+<h1>46 PANDERING 806 141</h1>
+</div>
+<div id="pimping-805-141" class="section level1">
+<h1>47 PIMPING 805 141</h1>
+</div>
+<div id="counterfeit-660-119" class="section level1">
+<h1>48 COUNTERFEIT 660 119</h1>
+</div>
+<div id="human-trafficking---involuntary-servitude-921-118" class="section level1">
+<h1>49 HUMAN TRAFFICKING - INVOLUNTARY SERVITUDE 921 118</h1>
+</div>
+<div id="credit-cards-fraud-use-950.01-over-653-111" class="section level1">
+<h1>50 CREDIT CARDS, FRAUD USE ($950.01 &amp; OVER) 653 111</h1>
+</div>
+<div id="illegal-dumping-949-95" class="section level1">
+<h1>51 ILLEGAL DUMPING 949 95</h1>
+</div>
+<div id="credit-cards-fraud-use-950-under-654-92" class="section level1">
+<h1>52 CREDIT CARDS, FRAUD USE ($950 &amp; UNDER 654 92</h1>
+</div>
+<div id="lewdlascivious-acts-with-child-760-87" class="section level1">
+<h1>53 LEWD/LASCIVIOUS ACTS WITH CHILD 760 87</h1>
+</div>
+<div id="defrauding-innkeepertheft-of-services-over-950.01-950-78" class="section level1">
+<h1>54 DEFRAUDING INNKEEPER/THEFT OF SERVICES, OVER $950.01 950 78</h1>
+</div>
+<div id="document-worthless-200.01-over-651-73" class="section level1">
+<h1>55 DOCUMENT WORTHLESS ($200.01 &amp; OVER) 651 73</h1>
+</div>
+<div id="contributing-954-45" class="section level1">
+<h1>56 CONTRIBUTING 954 45</h1>
+</div>
+<div id="weapons-possessionbombing-756-41" class="section level1">
+<h1>57 WEAPONS POSSESSION/BOMBING 756 41</h1>
+</div>
+<div id="document-worthless-200-under-652-27" class="section level1">
+<h1>58 DOCUMENT WORTHLESS ($200 &amp; UNDER) 652 27</h1>
+</div>
+<div id="child-abandonment-870-26" class="section level1">
+<h1>59 CHILD ABANDONMENT 870 26</h1>
+</div>
+<div id="conspiracy-944-24" class="section level1">
+<h1>60 CONSPIRACY 944 24</h1>
+</div>
+<div id="inciting-a-riot-882-22" class="section level1">
+<h1>61 INCITING A RIOT 882 22</h1>
+</div>
+<div id="disrupt-school-880-13" class="section level1">
+<h1>62 DISRUPT SCHOOL 880 13</h1>
+</div>
+<div id="replica-firearmssaledisplaymanufacture-or-distribute-931-13" class="section level1">
+<h1>63 REPLICA FIREARMS(SALE,DISPLAY,MANUFACTURE OR DISTRIBUTE) 931
+13</h1>
+</div>
+<div id="drugs-to-a-minor-865-12" class="section level1">
+<h1>64 DRUGS, TO A MINOR 865 12</h1>
+</div>
+<div id="grand-theft-insurance-fraud-347-12" class="section level1">
+<h1>65 GRAND THEFT / INSURANCE FRAUD 347 12</h1>
+</div>
+<div id="beastiality-crime-against-nature-sexual-asslt-with-anim-840-9" class="section level1">
+<h1>66 BEASTIALITY, CRIME AGAINST NATURE SEXUAL ASSLT WITH ANIM 840
+9</h1>
+</div>
+<div id="bribery-942-8" class="section level1">
+<h1>67 BRIBERY 942 8</h1>
+</div>
+<div id="petty-theft---auto-repair-446-8" class="section level1">
+<h1>68 PETTY THEFT - AUTO REPAIR 446 8</h1>
+</div>
+<div id="bigamy-948-7" class="section level1">
+<h1>69 BIGAMY 948 7</h1>
+</div>
+<div id="telephone-property---damage-924-7" class="section level1">
+<h1>70 TELEPHONE PROPERTY - DAMAGE 924 7</h1>
+</div>
+<div id="blocking-door-induction-center-432-6" class="section level1">
+<h1>71 BLOCKING DOOR INDUCTION CENTER 432 6</h1>
+</div>
+<div id="failure-to-disperse-884-6" class="section level1">
+<h1>72 FAILURE TO DISPERSE 884 6</h1>
+</div>
+<div id="grand-theft-auto-repair-349-6" class="section level1">
+<h1>73 GRAND THEFT / AUTO REPAIR 349 6</h1>
+</div>
+<div id="incest-sexual-acts-between-blood-relatives-830-6" class="section level1">
+<h1>74 INCEST (SEXUAL ACTS BETWEEN BLOOD RELATIVES) 830 6</h1>
+</div>
+<div id="firearms-emergency-protective-order-firearms-epo-904-5" class="section level1">
+<h1>75 FIREARMS EMERGENCY PROTECTIVE ORDER (FIREARMS EPO) 904 5</h1>
+</div>
+<div id="firearms-restraining-order-firearms-ro-906-4" class="section level1">
+<h1>76 FIREARMS RESTRAINING ORDER (FIREARMS RO) 906 4</h1>
+</div>
+<div id="part.1.2--" class="section level1">
+<h1>Part.1.2 -</h1>
+</div>
+<div id="a-tibble-86-3" class="section level1">
+<h1># A tibble: 86 × 3</h1>
+</div>
+<div id="crm.cd-crm.cd.desc-n" class="section level1">
+<h1>Crm.Cd Crm.Cd.Desc n</h1>
+</div>
+<div id="section-1" class="section level1">
+<h1><dbl> <chr> <int></h1>
+</div>
+<div id="child-neglect-see-300-w.i.c.-1205" class="section level1">
+<h1>1 237 CHILD NEGLECT (SEE 300 W.I.C.) 1205</h1>
+</div>
+<div id="grand-theft-insurance-fraud-12" class="section level1">
+<h1>2 347 GRAND THEFT / INSURANCE FRAUD 12</h1>
+</div>
+<div id="grand-theft-auto-repair-6" class="section level1">
+<h1>3 349 GRAND THEFT / AUTO REPAIR 6</h1>
+</div>
+<div id="theft-of-identity-62539" class="section level1">
+<h1>4 354 THEFT OF IDENTITY 62539</h1>
+</div>
+<div id="blocking-door-induction-center-6" class="section level1">
+<h1>5 432 BLOCKING DOOR INDUCTION CENTER 6</h1>
+</div>
+<div id="false-imprisonment-341" class="section level1">
+<h1>6 434 FALSE IMPRISONMENT 341</h1>
+</div>
+<div id="lynching-22" class="section level1">
+<h1>7 435 LYNCHING 22</h1>
+</div>
+<div id="lynching---attempted-11" class="section level1">
+<h1>8 436 LYNCHING - ATTEMPTED 11</h1>
+</div>
+<div id="resisting-arrest-1038" class="section level1">
+<h1>9 437 RESISTING ARREST 1038</h1>
+</div>
+<div id="reckless-driving-284" class="section level1">
+<h1>10 438 RECKLESS DRIVING 284</h1>
+</div>
+<div id="false-police-report-182" class="section level1">
+<h1>11 439 FALSE POLICE REPORT 182</h1>
+</div>
+<div id="petty-theft---auto-repair-8" class="section level1">
+<h1>12 446 PETTY THEFT - AUTO REPAIR 8</h1>
+</div>
+<div id="battery-on-a-firefighter-257" class="section level1">
+<h1>13 622 BATTERY ON A FIREFIGHTER 257</h1>
+</div>
+<div id="battery-police-simple-2565" class="section level1">
+<h1>14 623 BATTERY POLICE (SIMPLE) 2565</h1>
+</div>
+<div id="battery---simple-assault-74842" class="section level1">
+<h1>15 624 BATTERY - SIMPLE ASSAULT 74842</h1>
+</div>
+<div id="other-assault-4246" class="section level1">
+<h1>16 625 OTHER ASSAULT 4246</h1>
+</div>
+<div id="intimate-partner---simple-assault-46712" class="section level1">
+<h1>17 626 INTIMATE PARTNER - SIMPLE ASSAULT 46712</h1>
+</div>
+<div id="child-abuse-physical---simple-assault-3558" class="section level1">
+<h1>18 627 CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT 3558</h1>
+</div>
+<div id="throwing-object-at-moving-vehicle-791" class="section level1">
+<h1>19 647 THROWING OBJECT AT MOVING VEHICLE 791</h1>
+</div>
+<div id="document-forgery-stolen-felony-3373" class="section level1">
+<h1>20 649 DOCUMENT FORGERY / STOLEN FELONY 3373</h1>
+</div>
+<div id="document-worthless-200.01-over-73" class="section level1">
+<h1>21 651 DOCUMENT WORTHLESS ($200.01 &amp; OVER) 73</h1>
+</div>
+<div id="document-worthless-200-under-27" class="section level1">
+<h1>22 652 DOCUMENT WORTHLESS ($200 &amp; UNDER) 27</h1>
+</div>
+<div id="credit-cards-fraud-use-950.01-over-111" class="section level1">
+<h1>23 653 CREDIT CARDS, FRAUD USE ($950.01 &amp; OVER) 111</h1>
+</div>
+<div id="credit-cards-fraud-use-950-under-92" class="section level1">
+<h1>24 654 CREDIT CARDS, FRAUD USE ($950 &amp; UNDER 92</h1>
+</div>
+<div id="counterfeit-119" class="section level1">
+<h1>25 660 COUNTERFEIT 119</h1>
+</div>
+<div id="unauthorized-computer-access-523" class="section level1">
+<h1>26 661 UNAUTHORIZED COMPUTER ACCESS 523</h1>
+</div>
+<div id="bunco-grand-theft-6185" class="section level1">
+<h1>27 662 BUNCO, GRAND THEFT 6185</h1>
+</div>
+<div id="bunco-petty-theft-2027" class="section level1">
+<h1>28 664 BUNCO, PETTY THEFT 2027</h1>
+</div>
+<div id="bunco-attempt-324" class="section level1">
+<h1>29 666 BUNCO, ATTEMPT 324</h1>
+</div>
+<div id="embezzlement-grand-theft-950.01-over-4178" class="section level1">
+<h1>30 668 EMBEZZLEMENT, GRAND THEFT ($950.01 &amp; OVER) 4178</h1>
+</div>
+<div id="embezzlement-petty-theft-950-under-150" class="section level1">
+<h1>31 670 EMBEZZLEMENT, PETTY THEFT ($950 &amp; UNDER) 150</h1>
+</div>
+<div id="vandalism---felony-400-over-all-church-vandalisms-61094" class="section level1">
+<h1>32 740 VANDALISM - FELONY ($400 &amp; OVER, ALL CHURCH VANDALISMS)
+61094</h1>
+</div>
+<div id="vandalism---misdeameanor-399-or-under-25381" class="section level1">
+<h1>33 745 VANDALISM - MISDEAMEANOR ($399 OR UNDER) 25381</h1>
+</div>
+<div id="discharge-firearmsshots-fired-2725" class="section level1">
+<h1>34 753 DISCHARGE FIREARMS/SHOTS FIRED 2725</h1>
+</div>
+<div id="bomb-scare-471" class="section level1">
+<h1>35 755 BOMB SCARE 471</h1>
+</div>
+<div id="weapons-possessionbombing-41" class="section level1">
+<h1>36 756 WEAPONS POSSESSION/BOMBING 41</h1>
+</div>
+<div id="lewdlascivious-acts-with-child-87" class="section level1">
+<h1>37 760 LEWD/LASCIVIOUS ACTS WITH CHILD 87</h1>
+</div>
+<div id="lewd-conduct-714" class="section level1">
+<h1>38 762 LEWD CONDUCT 714</h1>
+</div>
+<div id="stalking-666" class="section level1">
+<h1>39 763 STALKING 666</h1>
+</div>
+<div id="pimping-141" class="section level1">
+<h1>40 805 PIMPING 141</h1>
+</div>
+<div id="pandering-141" class="section level1">
+<h1>41 806 PANDERING 141</h1>
+</div>
+<div id="sexunlawfulinc-mutual-consent-penetration-w-frgn-obj-1081" class="section level1">
+<h1>42 810 SEX,UNLAWFUL(INC MUTUAL CONSENT, PENETRATION W/ FRGN OBJ
+1081</h1>
+</div>
+<div id="crm-agnst-chld-13-or-under-14-15-susp-10-yrs-older-1771" class="section level1">
+<h1>43 812 CRM AGNST CHLD (13 OR UNDER) (14-15 &amp; SUSP 10 YRS OLDER)
+1771</h1>
+</div>
+<div id="child-annoying-17yrs-under-1049" class="section level1">
+<h1>44 813 CHILD ANNOYING (17YRS &amp; UNDER) 1049</h1>
+</div>
+<div id="child-pornography-276" class="section level1">
+<h1>45 814 CHILD PORNOGRAPHY 276</h1>
+</div>
+<div id="human-trafficking---commercial-sex-acts-479" class="section level1">
+<h1>46 822 HUMAN TRAFFICKING - COMMERCIAL SEX ACTS 479</h1>
+</div>
+<div id="incest-sexual-acts-between-blood-relatives-6" class="section level1">
+<h1>47 830 INCEST (SEXUAL ACTS BETWEEN BLOOD RELATIVES) 6</h1>
+</div>
+<div id="beastiality-crime-against-nature-sexual-asslt-with-anim-9" class="section level1">
+<h1>48 840 BEASTIALITY, CRIME AGAINST NATURE SEXUAL ASSLT WITH ANIM
+9</h1>
+</div>
+<div id="sex-offender-registrant-out-of-compliance-966" class="section level1">
+<h1>49 845 SEX OFFENDER REGISTRANT OUT OF COMPLIANCE 966</h1>
+</div>
+<div id="indecent-exposure-1202" class="section level1">
+<h1>50 850 INDECENT EXPOSURE 1202</h1>
+</div>
+<div id="battery-with-sexual-contact-4164" class="section level1">
+<h1>51 860 BATTERY WITH SEXUAL CONTACT 4164</h1>
+</div>
+<div id="drugs-to-a-minor-12" class="section level1">
+<h1>52 865 DRUGS, TO A MINOR 12</h1>
+</div>
+<div id="child-abandonment-26" class="section level1">
+<h1>53 870 CHILD ABANDONMENT 26</h1>
+</div>
+<div id="disrupt-school-13" class="section level1">
+<h1>54 880 DISRUPT SCHOOL 13</h1>
+</div>
+<div id="inciting-a-riot-22" class="section level1">
+<h1>55 882 INCITING A RIOT 22</h1>
+</div>
+<div id="failure-to-disperse-6" class="section level1">
+<h1>56 884 FAILURE TO DISPERSE 6</h1>
+</div>
+<div id="disturbing-the-peace-1514" class="section level1">
+<h1>57 886 DISTURBING THE PEACE 1514</h1>
+</div>
+<div id="trespassing-18428" class="section level1">
+<h1>58 888 TRESPASSING 18428</h1>
+</div>
+<div id="failure-to-yield-1714" class="section level1">
+<h1>59 890 FAILURE TO YIELD 1714</h1>
+</div>
+<div id="violation-of-court-order-6381" class="section level1">
+<h1>60 900 VIOLATION OF COURT ORDER 6381</h1>
+</div>
+<div id="violation-of-restraining-order-11748" class="section level1">
+<h1>61 901 VIOLATION OF RESTRAINING ORDER 11748</h1>
+</div>
+<div id="violation-of-temporary-restraining-order-921" class="section level1">
+<h1>62 902 VIOLATION OF TEMPORARY RESTRAINING ORDER 921</h1>
+</div>
+<div id="contempt-of-court-2722" class="section level1">
+<h1>63 903 CONTEMPT OF COURT 2722</h1>
+</div>
+<div id="firearms-emergency-protective-order-firearms-epo-5" class="section level1">
+<h1>64 904 FIREARMS EMERGENCY PROTECTIVE ORDER (FIREARMS EPO) 5</h1>
+</div>
+<div id="firearms-restraining-order-firearms-ro-4" class="section level1">
+<h1>65 906 FIREARMS RESTRAINING ORDER (FIREARMS RO) 4</h1>
+</div>
+<div id="kidnapping-812" class="section level1">
+<h1>66 910 KIDNAPPING 812</h1>
+</div>
+<div id="kidnapping---grand-attempt-232" class="section level1">
+<h1>67 920 KIDNAPPING - GRAND ATTEMPT 232</h1>
+</div>
+<div id="human-trafficking---involuntary-servitude-118" class="section level1">
+<h1>68 921 HUMAN TRAFFICKING - INVOLUNTARY SERVITUDE 118</h1>
+</div>
+<div id="child-stealing-459" class="section level1">
+<h1>69 922 CHILD STEALING 459</h1>
+</div>
+<div id="telephone-property---damage-7" class="section level1">
+<h1>70 924 TELEPHONE PROPERTY - DAMAGE 7</h1>
+</div>
+<div id="threatening-phone-callsletters-483" class="section level1">
+<h1>71 928 THREATENING PHONE CALLS/LETTERS 483</h1>
+</div>
+<div id="criminal-threats---no-weapon-displayed-19287" class="section level1">
+<h1>72 930 CRIMINAL THREATS - NO WEAPON DISPLAYED 19287</h1>
+</div>
+<div id="replica-firearmssaledisplaymanufacture-or-distribute-13" class="section level1">
+<h1>73 931 REPLICA FIREARMS(SALE,DISPLAY,MANUFACTURE OR DISTRIBUTE)
+13</h1>
+</div>
+<div id="peeping-tom-381" class="section level1">
+<h1>74 932 PEEPING TOM 381</h1>
+</div>
+<div id="prowler-202" class="section level1">
+<h1>75 933 PROWLER 202</h1>
+</div>
+<div id="extortion-2033" class="section level1">
+<h1>76 940 EXTORTION 2033</h1>
+</div>
+<div id="bribery-8" class="section level1">
+<h1>77 942 BRIBERY 8</h1>
+</div>
+<div id="cruelty-to-animals-269" class="section level1">
+<h1>78 943 CRUELTY TO ANIMALS 269</h1>
+</div>
+<div id="conspiracy-24" class="section level1">
+<h1>79 944 CONSPIRACY 24</h1>
+</div>
+<div id="other-miscellaneous-crime-6967" class="section level1">
+<h1>80 946 OTHER MISCELLANEOUS CRIME 6967</h1>
+</div>
+<div id="bigamy-7" class="section level1">
+<h1>81 948 BIGAMY 7</h1>
+</div>
+<div id="illegal-dumping-95" class="section level1">
+<h1>82 949 ILLEGAL DUMPING 95</h1>
+</div>
+<div id="defrauding-innkeepertheft-of-services-over-950.01-78" class="section level1">
+<h1>83 950 DEFRAUDING INNKEEPER/THEFT OF SERVICES, OVER $950.01 78</h1>
+</div>
+<div id="defrauding-innkeepertheft-of-services-950-under-337" class="section level1">
+<h1>84 951 DEFRAUDING INNKEEPER/THEFT OF SERVICES, $950 &amp; UNDER
+337</h1>
+</div>
+<div id="contributing-45" class="section level1">
+<h1>85 954 CONTRIBUTING 45</h1>
+</div>
+<div id="letters-lewd---telephone-calls-lewd-8712" class="section level1">
+<h1>86 956 LETTERS, LEWD - TELEPHONE CALLS, LEWD 8712</h1>
 <!-- rnb-text-end -->
+</div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIlIgTm90ZWJvb2siDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQpUaGlzIGlzIGFuIFtSIE1hcmtkb3duXShodHRwOi8vcm1hcmtkb3duLnJzdHVkaW8uY29tKSBOb3RlYm9vay4gV2hlbiB5b3UgZXhlY3V0ZSBjb2RlIHdpdGhpbiB0aGUgbm90ZWJvb2ssIHRoZSByZXN1bHRzIGFwcGVhciBiZW5lYXRoIHRoZSBjb2RlLiANCg0KVHJ5IGV4ZWN1dGluZyB0aGlzIGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqUnVuKiBidXR0b24gd2l0aGluIHRoZSBjaHVuayBvciBieSBwbGFjaW5nIHlvdXIgY3Vyc29yIGluc2lkZSBpdCBhbmQgcHJlc3NpbmcgKkN0cmwrU2hpZnQrRW50ZXIqLiANCg0KYGBge3J9DQpwbG90KGNhcnMpDQpgYGANCg0KQWRkIGEgbmV3IGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqSW5zZXJ0IENodW5rKiBidXR0b24gb24gdGhlIHRvb2xiYXIgb3IgYnkgcHJlc3NpbmcgKkN0cmwrQWx0K0kqLg0KDQpXaGVuIHlvdSBzYXZlIHRoZSBub3RlYm9vaywgYW4gSFRNTCBmaWxlIGNvbnRhaW5pbmcgdGhlIGNvZGUgYW5kIG91dHB1dCB3aWxsIGJlIHNhdmVkIGFsb25nc2lkZSBpdCAoY2xpY2sgdGhlICpQcmV2aWV3KiBidXR0b24gb3IgcHJlc3MgKkN0cmwrU2hpZnQrSyogdG8gcHJldmlldyB0aGUgSFRNTCBmaWxlKS4NCg0KVGhlIHByZXZpZXcgc2hvd3MgeW91IGEgcmVuZGVyZWQgSFRNTCBjb3B5IG9mIHRoZSBjb250ZW50cyBvZiB0aGUgZWRpdG9yLiBDb25zZXF1ZW50bHksIHVubGlrZSAqS25pdCosICpQcmV2aWV3KiBkb2VzIG5vdCBydW4gYW55IFIgY29kZSBjaHVua3MuIEluc3RlYWQsIHRoZSBvdXRwdXQgb2YgdGhlIGNodW5rIHdoZW4gaXQgd2FzIGxhc3QgcnVuIGluIHRoZSBlZGl0b3IgaXMgZGlzcGxheWVkLg0KDQpSU3R1ZGlvIERlc2t0b3ANCmh0dHBzOi8vcG9zaXQuY28vZG93bmxvYWQvcnN0dWRpby1kZXNrdG9wLw0KDQpHaXRIdWIgRGVza3RvcCAtIEdpdA0KaHR0cHM6Ly9naXRodWIuY29tL2FwcHMvZGVza3RvcA0KDQpSU29jcmF0YSAtIFINCkEgdG9vbCBmb3IgZG93bmxvYWRpbmcgYW5kIHVwbG9hZGluZyBTb2NyYXRhIGRhdGFzZXRzDQpodHRwczovL2dpdGh1Yi5jb20vQ2hpY2Fnby9SU29jcmF0YQ0KDQpPcGVuIEEgRGF0YSAmIEluc2lnaHRzIERhdGFzZXQgSW4uIC0gRGF0YSAmIEluc2lnaHRzIEtub3dsZWRnZSBCYXNlDQpodHRwczovL3N1cHBvcnQuc29jcmF0YS5jb20vaGMvZW4tdXMvYXJ0aWNsZXMvMTE1MDEwNzMwODY4LU9wZW4tQS1EYXRhLUluc2lnaHRzLURhdGFzZXQtSW4NCg0KQ3JpbWUgRGF0YSBmcm9tIDIwMjAgdG8gUHJlc2VudA0KaHR0cHM6Ly9jYXRhbG9nLmRhdGEuZ292L2RhdGFzZXQvY3JpbWUtZGF0YS1mcm9tLTIwMjAtdG8tcHJlc2VudA0KaHR0cHM6Ly9kYXRhLmxhY2l0eS5vcmcvUHVibGljLVNhZmV0eS9DcmltZS1EYXRhLWZyb20tMjAyMC10by1QcmVzZW50LzJucnMtbXR2OC9hYm91dF9kYXRhDQoNCkRhdGEgdmlzdWFsaXphdGlvbiB3aXRoIGdncGxvdDIgLSBDaGVhdCBTaGVldA0KaHR0cHM6Ly9yc3R1ZGlvLmdpdGh1Yi5pby9jaGVhdHNoZWV0cy9odG1sL2RhdGEtdmlzdWFsaXphdGlvbi5odG1sDQoNCkRhdGEgdHJhbnNmb3JtYXRpb24gd2l0aCBkcGx5ciAtIENoZWF0c2hlZXQNCmh0dHBzOi8vcnN0dWRpby5naXRodWIuaW8vY2hlYXRzaGVldHMvaHRtbC9kYXRhLXRyYW5zZm9ybWF0aW9uLmh0bWwNCg0KRGF0YSBpbXBvcnQgd2l0aCB0aGUgdGlkeXZlcnNlIC0gQ2hlYXRzaGVldA0KaHR0cHM6Ly9yc3R1ZGlvLmdpdGh1Yi5pby9jaGVhdHNoZWV0cy9odG1sL2RhdGEtaW1wb3J0Lmh0bWwNCg0KQXBwbHkgZnVuY3Rpb25zIHdpdGggcHVycnIgLSBDaGVhdHNoZWV0DQpodHRwczovL3JzdHVkaW8uZ2l0aHViLmlvL2NoZWF0c2hlZXRzL2h0bWwvcHVycnIuaHRtbA0KDQpybWFya2Rvd24gLSBDaGVhdHNoZWV0DQpodHRwczovL3JzdHVkaW8uZ2l0aHViLmlvL2NoZWF0c2hlZXRzL2h0bWwvcm1hcmtkb3duLmh0bWwNCg0KUHVibGlzaCBhbmQgU2hhcmUgd2l0aCBRdWFydG8gLSBDaGVhdHNoZWV0DQpodHRwczovL3JzdHVkaW8uZ2l0aHViLmlvL2NoZWF0c2hlZXRzL2h0bWwvcXVhcnRvLmh0bWwNCg0KUkVTVCBBUElzIHdpdGggcGx1bWJlciAtIENoZWF0c2hlZXQNCmh0dHBzOi8vcnN0dWRpby5naXRodWIuaW8vY2hlYXRzaGVldHMvaHRtbC9wbHVtYmVyLmh0bWwNCg0KRGF0ZXMgYW5kIHRpbWVzIHdpdGggbHVicmlkYXRlIDo6IENoZWF0c2hlZXQNCmh0dHBzOi8vcnN0dWRpby5naXRodWIuaW8vY2hlYXRzaGVldHMvaHRtbC9sdWJyaWRhdGUuaHRtbA0K</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIlIgTm90ZWJvb2siDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQpUaGlzIGlzIGFuIFtSIE1hcmtkb3duXShodHRwOi8vcm1hcmtkb3duLnJzdHVkaW8uY29tKSBOb3RlYm9vay4gV2hlbiB5b3UgZXhlY3V0ZSBjb2RlIHdpdGhpbiB0aGUgbm90ZWJvb2ssIHRoZSByZXN1bHRzIGFwcGVhciBiZW5lYXRoIHRoZSBjb2RlLiANCg0KVHJ5IGV4ZWN1dGluZyB0aGlzIGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqUnVuKiBidXR0b24gd2l0aGluIHRoZSBjaHVuayBvciBieSBwbGFjaW5nIHlvdXIgY3Vyc29yIGluc2lkZSBpdCBhbmQgcHJlc3NpbmcgKkN0cmwrU2hpZnQrRW50ZXIqLiANCg0KYGBge3J9DQpwbG90KGNhcnMpDQpgYGANCg0KQWRkIGEgbmV3IGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqSW5zZXJ0IENodW5rKiBidXR0b24gb24gdGhlIHRvb2xiYXIgb3IgYnkgcHJlc3NpbmcgKkN0cmwrQWx0K0kqLg0KDQpXaGVuIHlvdSBzYXZlIHRoZSBub3RlYm9vaywgYW4gSFRNTCBmaWxlIGNvbnRhaW5pbmcgdGhlIGNvZGUgYW5kIG91dHB1dCB3aWxsIGJlIHNhdmVkIGFsb25nc2lkZSBpdCAoY2xpY2sgdGhlICpQcmV2aWV3KiBidXR0b24gb3IgcHJlc3MgKkN0cmwrU2hpZnQrSyogdG8gcHJldmlldyB0aGUgSFRNTCBmaWxlKS4NCg0KVGhlIHByZXZpZXcgc2hvd3MgeW91IGEgcmVuZGVyZWQgSFRNTCBjb3B5IG9mIHRoZSBjb250ZW50cyBvZiB0aGUgZWRpdG9yLiBDb25zZXF1ZW50bHksIHVubGlrZSAqS25pdCosICpQcmV2aWV3KiBkb2VzIG5vdCBydW4gYW55IFIgY29kZSBjaHVua3MuIEluc3RlYWQsIHRoZSBvdXRwdXQgb2YgdGhlIGNodW5rIHdoZW4gaXQgd2FzIGxhc3QgcnVuIGluIHRoZSBlZGl0b3IgaXMgZGlzcGxheWVkLg0KDQpSU3R1ZGlvIERlc2t0b3ANCmh0dHBzOi8vcG9zaXQuY28vZG93bmxvYWQvcnN0dWRpby1kZXNrdG9wLw0KDQpHaXRIdWIgRGVza3RvcCAtIEdpdA0KaHR0cHM6Ly9naXRodWIuY29tL2FwcHMvZGVza3RvcA0KDQpSU29jcmF0YSAtIFINCkEgdG9vbCBmb3IgZG93bmxvYWRpbmcgYW5kIHVwbG9hZGluZyBTb2NyYXRhIGRhdGFzZXRzDQpodHRwczovL2dpdGh1Yi5jb20vQ2hpY2Fnby9SU29jcmF0YQ0KDQpPcGVuIEEgRGF0YSAmIEluc2lnaHRzIERhdGFzZXQgSW4uIC0gRGF0YSAmIEluc2lnaHRzIEtub3dsZWRnZSBCYXNlDQpodHRwczovL3N1cHBvcnQuc29jcmF0YS5jb20vaGMvZW4tdXMvYXJ0aWNsZXMvMTE1MDEwNzMwODY4LU9wZW4tQS1EYXRhLUluc2lnaHRzLURhdGFzZXQtSW4NCg0KQ3JpbWUgRGF0YSBmcm9tIDIwMjAgdG8gUHJlc2VudA0KaHR0cHM6Ly9jYXRhbG9nLmRhdGEuZ292L2RhdGFzZXQvY3JpbWUtZGF0YS1mcm9tLTIwMjAtdG8tcHJlc2VudA0KaHR0cHM6Ly9kYXRhLmxhY2l0eS5vcmcvUHVibGljLVNhZmV0eS9DcmltZS1EYXRhLWZyb20tMjAyMC10by1QcmVzZW50LzJucnMtbXR2OC9hYm91dF9kYXRhDQoNCkRhdGEgdmlzdWFsaXphdGlvbiB3aXRoIGdncGxvdDIgLSBDaGVhdCBTaGVldA0KaHR0cHM6Ly9yc3R1ZGlvLmdpdGh1Yi5pby9jaGVhdHNoZWV0cy9odG1sL2RhdGEtdmlzdWFsaXphdGlvbi5odG1sDQoNCkRhdGEgdHJhbnNmb3JtYXRpb24gd2l0aCBkcGx5ciAtIENoZWF0c2hlZXQNCmh0dHBzOi8vcnN0dWRpby5naXRodWIuaW8vY2hlYXRzaGVldHMvaHRtbC9kYXRhLXRyYW5zZm9ybWF0aW9uLmh0bWwNCg0KRGF0YSBpbXBvcnQgd2l0aCB0aGUgdGlkeXZlcnNlIC0gQ2hlYXRzaGVldA0KaHR0cHM6Ly9yc3R1ZGlvLmdpdGh1Yi5pby9jaGVhdHNoZWV0cy9odG1sL2RhdGEtaW1wb3J0Lmh0bWwNCg0KQXBwbHkgZnVuY3Rpb25zIHdpdGggcHVycnIgLSBDaGVhdHNoZWV0DQpodHRwczovL3JzdHVkaW8uZ2l0aHViLmlvL2NoZWF0c2hlZXRzL2h0bWwvcHVycnIuaHRtbA0KDQpybWFya2Rvd24gLSBDaGVhdHNoZWV0DQpodHRwczovL3JzdHVkaW8uZ2l0aHViLmlvL2NoZWF0c2hlZXRzL2h0bWwvcm1hcmtkb3duLmh0bWwNCg0KUHVibGlzaCBhbmQgU2hhcmUgd2l0aCBRdWFydG8gLSBDaGVhdHNoZWV0DQpodHRwczovL3JzdHVkaW8uZ2l0aHViLmlvL2NoZWF0c2hlZXRzL2h0bWwvcXVhcnRvLmh0bWwNCg0KUkVTVCBBUElzIHdpdGggcGx1bWJlciAtIENoZWF0c2hlZXQNCmh0dHBzOi8vcnN0dWRpby5naXRodWIuaW8vY2hlYXRzaGVldHMvaHRtbC9wbHVtYmVyLmh0bWwNCg0KRGF0ZXMgYW5kIHRpbWVzIHdpdGggbHVicmlkYXRlIDo6IENoZWF0c2hlZXQNCmh0dHBzOi8vcnN0dWRpby5naXRodWIuaW8vY2hlYXRzaGVldHMvaHRtbC9sdWJyaWRhdGUuaHRtbA0KDQpVUkkgQ29udmVudGlvbnMgKE9EYXRhIFZlcnNpb24gMi4wKQ0KaHR0cHM6Ly93d3cub2RhdGEub3JnL2RvY3VtZW50YXRpb24vb2RhdGEtdmVyc2lvbi0yLTAvdXJpLWNvbnZlbnRpb25zLw0KDQpodHRwczovL2NyZDIzMC5naXRodWIuaW8vbGFiMy5odG1sDQpMYWIgMzogU3BhdGlhbCBEYXRhIGluIFINCg0KaHR0cHM6Ly9nZW9odWIubGFjaXR5Lm9yZy8NCkNPVklEMTkgYnkgTmVpZ2hib3Job29kDQpodHRwczovL2dlb2h1Yi5sYWNpdHkub3JnL2RhdGFzZXRzL2Y1NTNmYTc0Y2JmZTRlNDliM2EzMzQ5NDcyOThmYTM0L2Fib3V0DQoNClJlYWRpbmcgbGF5ZXIgYG5naGJyaGRfZGF0YScgZnJvbSBkYXRhIHNvdXJjZSANCiAgYEQ6XENVUlJFTlRfV09SS1xTVFVEWVxEYXRhIEFuYWx5dGljc1xGaW5hbFxEYXRhQW5hbHl0aWNzLVItUlN0dWRpby1MQUNpdHktQ3JpbWVEYXRhMjAyMC1cc2hhcGVcbmdoYnJoZF9kYXRhLnNocCcgDQogIHVzaW5nIGRyaXZlciBgRVNSSSBTaGFwZWZpbGUnDQpTaW1wbGUgZmVhdHVyZSBjb2xsZWN0aW9uIHdpdGggMTQxIGZlYXR1cmVzIGFuZCAxMCBmaWVsZHMNCkdlb21ldHJ5IHR5cGU6IFBPTFlHT04NCkRpbWVuc2lvbjogICAgIFhZDQpCb3VuZGluZyBib3g6ICB4bWluOiA2MzU5NTc3LjUgeW1pbjogMTcxNDYzOS44NzUgeG1heDogNjUxNDYyOC41IHltYXg6IDE5NDU1NDIuNQ0KUHJvamVjdGVkIENSUzogTkFEODMgLyBDYWxpZm9ybmlhIHpvbmUgNSAoZnRVUykNCg0KDQojICAgSE9NSUNJREUgMTEwIChIb21pY2lkZSkNCiMgMTEzIChNYW5zbGF1Z2h0ZXIpDQojIFJBUEUgMTIxIChSYXBlKQ0KIyAxMjIgKEF0dGVtcHRlZCBSYXBlKQ0KIyA4MTUgKFNleHVhbCBQZW5ldHJhdGlvbiB3LyBGb3JlaWduIE9iamVjdCkNCiMgODIwIChPcmFsIENvcHVsYXRpb24pDQojIDgyMSAoU29kb215KQ0KIyBST0JCRVJZIDIxMCAoUm9iYmVyeSkNCiMgMjIwIChSb2JiZXJ5IC0gYXR0ZW1wdGVkKQ0KIyBBR0cuIEFTU0FVTFRTIDIzMCAoQURXKSwNCiMgMjMxIChBRFcgYWdhaW5zdCBMQVBEIFBvbGljZSBPZmZpY2VyKQ0KIyAyMzUgKENoaWxkIGJlYXRpbmcpDQojIERWKiAyMzYgKFNwb3VzYWwgYmVhdGluZykNCiMgMjUwIChTaG90cyBGaXJlZCkNCiMgMjUxIChTaG90cyBmaXJlZCBpbmhhYml0ZWQgZHdlbGxpbmcpDQojIDc2MSAoQnJhbmRpc2hpbmcpDQojIDkyNiAoVHJhaW4gV3JlY2tpbmcpDQojIEFHRy4gQVNTQVVMVFMgMjMwIChBRFcpDQojIDIzMSAoQURXIGFnYWluc3QgTEFQRCBQb2xpY2UgT2ZmaWNlcikNCiMgMjM1IChDaGlsZCBiZWF0aW5nKQ0KIyBEViogMjM2IChTcG91c2FsIGJlYXRpbmcpDQojIDI1MCAoU2hvdHMgRmlyZWQpDQojIDI1MSAoU2hvdHMgZmlyZWQgaW5oYWJpdGVkIGR3ZWxsaW5nKQ0KIyA3NjEgKEJyYW5kaXNoaW5nKQ0KIyA5MjYgKFRyYWluIFdyZWNraW5nKQ0KIyBTSU1QTEUgQVNTQVVMVCoqIDQzNSAoTHluY2hpbmcpDQojIChOb3QgSW5jbC4gaW4gUGFydCBJIDQzNiAoTHluY2hpbmcgLSBhdHRlbXB0ZWQpDQojICAgVmlvbGVudCBDcmltZSkgNDM3IChSZXNpc3RpbmcgQXJyZXN0KQ0KIyA2MjIgKEJhdHRlcnkgb24gRmlyZWZpZ2h0ZXIpDQojIDYyMyAoQmF0dGVyeSBvbiBQb2xpY2UgT2ZmaWNlcikNCiMgNjI0IChCYXR0ZXJ5IC0gbWlzZGVtZWFub3IpDQojIDYyNSAoT3RoZXIgTWlzZC4gQXNzYXVsdCkNCiMgRFYqIDYyNiAoU3BvdXNhbC9Db2hhYiBBYnVzZSAtIFNpbXBsZSBBc3NhdWx0KQ0KIyA2MjcgKENoaWxkIEFidXNlIC0gU2ltcGxlIEFzc2F1bHQpDQojIDY0NyAoVGhyb3dpbmcgc3Vic3RhbmNlIGF0IHZlaGljbGUpDQojIDc2MyAoU3RhbGtpbmcpDQojIDkyOCAoVGhyZWF0ZW5pbmcgUGhvbmUgQ2FsbHMgLyBMZXR0ZXJzKQ0KIyA5MzAgKENyaW1pbmFsIFRocmVhdHMpDQojIEFTU0FVTFRTID0gQWdnLiBBc3NhdWx0IChJbmNsLiBEb21lc3RpYyBWaW9sKSArIE90aGVyIEFzc2F1bHQNCiMgUGFydCBJIOKAkyBQcm9wZXJ0eSBDcmltZXMNCiMgQlVSR0xBUlkgMzEwIChCdXJnbGFyeSkNCiMgMzIwIChCdXJnbGFyeSAtIGF0dGVtcHRlZCkNCiMgTVZUIChHVEEpKioqIDUxMCAoU3RvbGVuIFZlaGljbGUpDQojIDUyMCAoU3RvbGVuIFZlaGljbGUgLSBhdHRlbXB0ZWQpDQojIDQzMyBEV09DDQojIEJURlYgMzMwIChCdXJnIGZyb20gVmVoaWNsZSkNCiMgMzMxIChUaGVmdCBmcm9tIHZlaGljbGUgLSAkOTUwLjAxICYgb3ZlcikNCiMgNDEwIChCdXJnIGZyb20gVmVoaWNsZSAtIGF0dGVtcHRlZCkNCiMgNDIwIChUaGVmdCBmcm9tIHZlaGljbGUgLSAkOTUwICYgdW5kZXIpDQojIDQyMSAoVGhlZnQgZnJvbSB2ZWhpY2xlIGF0dGVtcHRlZCkNCiMgUEVSU09OQUwgVEhGVCAzNTAgKFRoZWZ0IGZyb20gcGVyc29uKQ0KIyAzNTEgKFB1cnNlc25hdGNoKQ0KIyAzNTIgKFBpY2twb2NrZXQpDQojIDM1MyAoRHJ1bmtyb2xsKQ0KIyA0NTAgKFRoZWZ0IGZyb20gcGVyc29uIC0gYXR0ZW1wdGVkKQ0KIyA0NTEgKFB1cnNlc25hdGNoIC0gYXR0ZW1wdGVkKQ0KIyA0NTIgKFBpY2twb2NrZXQgLSBhdHRlbXB0ZWQpDQojIDQ1MyAoRHJ1bmtyb2xsIC0gYXR0ZW1wdGVkKQ0KIyBPVEhFUiBUSEVGVCAzNDEgKFRoZWZ0IC0gJDk1MC4wMSAmIG92ZXIpDQojIDM0MyAoU2hvcGxpZnRpbmcgLSAkOTUwLjAxICYgb3ZlcikNCiMgMzQ1IChEaXNob25lc3QgZW1wbG95ZWUgLSBncmFuZCB0aGVmdCkNCiMgNDQwIChUaGVmdCAtICQ5NTAgJiB1bmRlcikNCiMgNDQxIChUaGVmdCAtIGF0dGVtcHRlZCkNCiMgNDQyIChTaG9wbGlmdGluZyAtICQ5NTAgJiB1bmRlcikNCiMgNDQzIChTaG9wbGlmdGluZyAtIGF0dGVtcHRlZCkNCiMgNDQ0IChEaXNob25lc3QgZW1wbG95ZWUgLSBwZXR0eSB0aGVmdCkNCiMgNDQ1IChEaXNob25lc3QgRW1wbG95ZWUgLSBhdHRlbXB0ZWQpDQojIDQ3MCAoVGlsbCBUYXAgLSAkOTUwLjAxICYgb3ZlcikNCiMgNDcxIChUaWxsIFRhcCAtICQ5NTAgJiB1bmRlcikNCiMgNDcyIChUaWxsIFRhcCAtIGF0dGVtcHRlZCkNCiMgNDczIChUaGVmdCBmcm9tIGNvaW4gbS9jIC0gJDk1MC4wMSAmIG92ZXIpDQojIDQ3NCAoVGhlZnQgZnJvbSBjb2luIG0vYyAtICQ5NTAgJiB1bmRlcikNCiMgNDc1IChUaGVmdCBmcm9tIGNvaW4gbS9jIC0gYXR0ZW1wdGVkKQ0KIyA0ODAgKEJpY3ljbGUgLSBzdG9sZW4pDQojIDQ4NSAoQmljeWNsZSAtIGF0dGVtcHRlZCBzdG9sZW4pDQojIDQ4NyAoQm9hdCAtIHN0b2xlbikNCiMgNDkxIChCb2F0IC0gYXR0ZW1wdGVkIHN0b2xlbikNCg0KIyBDcm0uQ2QuRGVzYyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBDcm0uQ2QgICAgIG4NCiMgPGNocj4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkYmw+IDxpbnQ+DQojICAgMSBUSEVGVCBPRiBJREVOVElUWSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzNTQgNjI1MzkNCiMgMiBWQU5EQUxJU00gLSBGRUxPTlkgKCQ0MDAgJiBPVkVSLCBBTEwgQ0hVUkNIIFZBTkRBTElTTVMpICAgICA3NDAgNjEwOTQNCiMgMyBWQU5EQUxJU00gLSBNSVNERUFNRUFOT1IgKCQzOTkgT1IgVU5ERVIpICAgICAgICAgICAgICAgICAgICA3NDUgMjUzODENCiMgNCBUUkVTUEFTU0lORyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4ODggMTg0MjgNCiMgNSBCUkFORElTSCBXRUFQT04gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA3NjEgMTQ1MzMNCiMgNiBWSU9MQVRJT04gT0YgUkVTVFJBSU5JTkcgT1JERVIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA5MDEgMTE3NDgNCiMgNyBMRVRURVJTLCBMRVdEICAtICBURUxFUEhPTkUgQ0FMTFMsIExFV0QgICAgICAgICAgICAgICAgICAgICA5NTYgIDg3MTINCiMgOCBPVEhFUiBNSVNDRUxMQU5FT1VTIENSSU1FICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA5NDYgIDY5NjcNCiMgOSBWSU9MQVRJT04gT0YgQ09VUlQgT1JERVIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA5MDAgIDYzODENCiMgMTAgQlVOQ08sIEdSQU5EIFRIRUZUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjYyICA2MTg1DQojIDExIEVNQkVaWkxFTUVOVCwgR1JBTkQgVEhFRlQgKCQ5NTAuMDEgJiBPVkVSKSAgICAgICAgICAgICAgICAgIDY2OCAgNDE3OA0KIyAxMiBCQVRURVJZIFdJVEggU0VYVUFMIENPTlRBQ1QgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4NjAgIDQxNjQNCiMgMTMgRE9DVU1FTlQgRk9SR0VSWSAvIFNUT0xFTiBGRUxPTlkgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjQ5ICAzMzczDQojIDE0IFZFSElDTEUsIFNUT0xFTiAtIE9USEVSIChNT1RPUklaRUQgU0NPT1RFUlMsIEJJS0VTLCBFVEMpICAgIDUyMiAgMjk2OQ0KIyAxNSBESVNDSEFSR0UgRklSRUFSTVMvU0hPVFMgRklSRUQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA3NTMgIDI3MjUNCiMgMTYgQ09OVEVNUFQgT0YgQ09VUlQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOTAzICAyNzIyDQojIDE3IEFSU09OICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDY0OCAgMjU2OA0KIyAxOCBFWFRPUlRJT04gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA5NDAgIDIwMzMNCiMgMTkgQlVOQ08sIFBFVFRZIFRIRUZUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjY0ICAyMDI3DQojIDIwIENSTSBBR05TVCBDSExEICgxMyBPUiBVTkRFUikgKDE0LTE1ICYgU1VTUCAxMCBZUlMgT0xERVIpICAgIDgxMiAgMTc3MQ0KIyAyMSBGQUlMVVJFIFRPIFlJRUxEICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4OTAgIDE3MTQNCiMgMjIgRElTVFVSQklORyBUSEUgUEVBQ0UgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODg2ICAxNTE0DQojIDIzIENISUxEIE5FR0xFQ1QgKFNFRSAzMDAgVy5JLkMuKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDIzNyAgMTIwNQ0KIyAyNCBJTkRFQ0VOVCBFWFBPU1VSRSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4NTAgIDEyMDINCiMgMjUgU0VYLFVOTEFXRlVMKElOQyBNVVRVQUwgQ09OU0VOVCwgUEVORVRSQVRJT04gVy8gRlJHTiBPQkogICAgODEwICAxMDgxDQojICAgICAgICAgICAgICAgICAyNiBDSElMRCBBTk5PWUlORyAoMTdZUlMgJiBVTkRFUikgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4MTMgIDEwNDkNCiMgICAgICAgICAgICAgICAgIDI3IFNFWCBPRkZFTkRFUiBSRUdJU1RSQU5UIE9VVCBPRiBDT01QTElBTkNFICAgICAgICAgICAgICAgICAgIDg0NSAgIDk2Ng0KIyAgICAgICAgICAgICAgICAgMjggVklPTEFUSU9OIE9GIFRFTVBPUkFSWSBSRVNUUkFJTklORyBPUkRFUiAgICAgICAgICAgICAgICAgICAgOTAyICAgOTIxDQojICAgICAgICAgICAgICAgICAyOSBLSUROQVBQSU5HICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA5MTAgICA4MTINCiMgICAgICAgICAgICAgICAgIDMwIExFV0QgQ09ORFVDVCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDc2MiAgIDcxNA0KIyAgICAgICAgICAgICAgICAgMzEgVU5BVVRIT1JJWkVEIENPTVBVVEVSIEFDQ0VTUyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjYxICAgNTIzDQojICAgICAgICAgICAgICAgICAzMiBIVU1BTiBUUkFGRklDS0lORyAtIENPTU1FUkNJQUwgU0VYIEFDVFMgICAgICAgICAgICAgICAgICAgICA4MjIgICA0NzkNCiMgICAgICAgICAgICAgICAgIDMzIEJPTUIgU0NBUkUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDc1NSAgIDQ3MQ0KIyAgICAgICAgICAgICAgICAgMzQgQ0hJTEQgU1RFQUxJTkcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOTIyICAgNDU5DQojICAgICAgICAgICAgICAgICAzNSBQRUVQSU5HIFRPTSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA5MzIgICAzODENCiMgICAgICAgICAgICAgICAgIDM2IEZBTFNFIElNUFJJU09OTUVOVCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQzNCAgIDM0MQ0KIyAgICAgICAgICAgICAgICAgMzcgREVGUkFVRElORyBJTk5LRUVQRVIvVEhFRlQgT0YgU0VSVklDRVMsICQ5NTAgJiBVTkRFUiAgICAgICAgOTUxICAgMzM3DQojICAgICAgICAgICAgICAgICAzOCBCVU5DTywgQVRURU1QVCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA2NjYgICAzMjQNCiMgICAgICAgICAgICAgICAgIDM5IFJFQ0tMRVNTIERSSVZJTkcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQzOCAgIDI4NA0KIyAgICAgICAgICAgICAgICAgNDAgQ0hJTEQgUE9STk9HUkFQSFkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODE0ICAgMjc2DQojICAgICAgICAgICAgICAgICA0MSBDUlVFTFRZIFRPIEFOSU1BTFMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA5NDMgICAyNjkNCiMgICAgICAgICAgICAgICAgIDQyIEtJRE5BUFBJTkcgLSBHUkFORCBBVFRFTVBUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDkyMCAgIDIzMg0KIyAgICAgICAgICAgICAgICAgNDMgUFJPV0xFUiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOTMzICAgMjAyDQojICAgICAgICAgICAgICAgICA0NCBGQUxTRSBQT0xJQ0UgUkVQT1JUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0MzkgICAxODINCiMgICAgICAgICAgICAgICAgIDQ1IEVNQkVaWkxFTUVOVCwgUEVUVFkgVEhFRlQgKCQ5NTAgJiBVTkRFUikgICAgICAgICAgICAgICAgICAgIDY3MCAgIDE1MA0KIyAgICAgICAgICAgICAgICAgNDYgUEFOREVSSU5HICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODA2ICAgMTQxDQojICAgICAgICAgICAgICAgICA0NyBQSU1QSU5HICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4MDUgICAxNDENCiMgICAgICAgICAgICAgICAgIDQ4IENPVU5URVJGRUlUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDY2MCAgIDExOQ0KIyAgICAgICAgICAgICAgICAgNDkgSFVNQU4gVFJBRkZJQ0tJTkcgLSBJTlZPTFVOVEFSWSBTRVJWSVRVREUgICAgICAgICAgICAgICAgICAgOTIxICAgMTE4DQojICAgICAgICAgICAgICAgICA1MCBDUkVESVQgQ0FSRFMsIEZSQVVEIFVTRSAoJDk1MC4wMSAmIE9WRVIpICAgICAgICAgICAgICAgICAgICA2NTMgICAxMTENCiMgICAgICAgICAgICAgICAgIDUxIElMTEVHQUwgRFVNUElORyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDk0OSAgICA5NQ0KIyAgICAgICAgICAgICAgICAgNTIgQ1JFRElUIENBUkRTLCBGUkFVRCBVU0UgKCQ5NTAgJiBVTkRFUiAgICAgICAgICAgICAgICAgICAgICAgNjU0ICAgIDkyDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTMgTEVXRC9MQVNDSVZJT1VTIEFDVFMgV0lUSCBDSElMRCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzYwICAgIDg3DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTQgREVGUkFVRElORyBJTk5LRUVQRVIvVEhFRlQgT0YgU0VSVklDRVMsIE9WRVIgJDk1MC4wMSAgICAgICAgOTUwICAgIDc4DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTUgRE9DVU1FTlQgV09SVEhMRVNTICgkMjAwLjAxICYgT1ZFUikgICAgICAgICAgICAgICAgICAgICAgICAgNjUxICAgIDczDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTYgQ09OVFJJQlVUSU5HICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOTU0ICAgIDQ1DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTcgV0VBUE9OUyBQT1NTRVNTSU9OL0JPTUJJTkcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzU2ICAgIDQxDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTggRE9DVU1FTlQgV09SVEhMRVNTICgkMjAwICYgVU5ERVIpICAgICAgICAgICAgICAgICAgICAgICAgICAgNjUyICAgIDI3DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTkgQ0hJTEQgQUJBTkRPTk1FTlQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODcwICAgIDI2DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjAgQ09OU1BJUkFDWSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOTQ0ICAgIDI0DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjEgSU5DSVRJTkcgQSBSSU9UICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODgyICAgIDIyDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjIgRElTUlVQVCBTQ0hPT0wgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODgwICAgIDEzDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjMgUkVQTElDQSBGSVJFQVJNUyhTQUxFLERJU1BMQVksTUFOVUZBQ1RVUkUgT1IgRElTVFJJQlVURSkgICAgOTMxICAgIDEzDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjQgRFJVR1MsIFRPIEEgTUlOT1IgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODY1ICAgIDEyDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjUgR1JBTkQgVEhFRlQgLyBJTlNVUkFOQ0UgRlJBVUQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMzQ3ICAgIDEyDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjYgQkVBU1RJQUxJVFksIENSSU1FIEFHQUlOU1QgTkFUVVJFIFNFWFVBTCBBU1NMVCBXSVRIIEFOSU0gICAgODQwICAgICA5DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjcgQlJJQkVSWSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOTQyICAgICA4DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjggUEVUVFkgVEhFRlQgLSBBVVRPIFJFUEFJUiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNDQ2ICAgICA4DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjkgQklHQU1ZICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOTQ4ICAgICA3DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzAgVEVMRVBIT05FIFBST1BFUlRZIC0gREFNQUdFICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOTI0ICAgICA3DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzEgQkxPQ0tJTkcgRE9PUiBJTkRVQ1RJT04gQ0VOVEVSICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNDMyICAgICA2DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzIgRkFJTFVSRSBUTyBESVNQRVJTRSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODg0ICAgICA2DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzMgR1JBTkQgVEhFRlQgLyBBVVRPIFJFUEFJUiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMzQ5ICAgICA2DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzQgSU5DRVNUIChTRVhVQUwgQUNUUyBCRVRXRUVOIEJMT09EIFJFTEFUSVZFUykgICAgICAgICAgICAgICAgODMwICAgICA2DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzUgRklSRUFSTVMgRU1FUkdFTkNZIFBST1RFQ1RJVkUgT1JERVIgKEZJUkVBUk1TIEVQTykgICAgICAgICAgOTA0ICAgICA1DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzYgRklSRUFSTVMgUkVTVFJBSU5JTkcgT1JERVIgKEZJUkVBUk1TIFJPKSAgICAgICAgICAgICAgICAgICAgOTA2ICAgICA0DQoNCg0KIyBQYXJ0LjEuMiAtIA0KDQojICMgQSB0aWJibGU6IDg2IMOXIDMNCiMgQ3JtLkNkIENybS5DZC5EZXNjICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuDQojIDxkYmw+IDxjaHI+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbnQ+DQojICAgMSAgICAyMzcgQ0hJTEQgTkVHTEVDVCAoU0VFIDMwMCBXLkkuQy4pICAgICAgICAgICAgICAgICAgICAgICAgICAgIDEyMDUNCiMgMiAgICAzNDcgR1JBTkQgVEhFRlQgLyBJTlNVUkFOQ0UgRlJBVUQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTINCiMgMyAgICAzNDkgR1JBTkQgVEhFRlQgLyBBVVRPIFJFUEFJUiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDYNCiMgNCAgICAzNTQgVEhFRlQgT0YgSURFTlRJVFkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjI1MzkNCiMgNSAgICA0MzIgQkxPQ0tJTkcgRE9PUiBJTkRVQ1RJT04gQ0VOVEVSICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDYNCiMgNiAgICA0MzQgRkFMU0UgSU1QUklTT05NRU5UICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzNDENCiMgNyAgICA0MzUgTFlOQ0hJTkcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjINCiMgOCAgICA0MzYgTFlOQ0hJTkcgLSBBVFRFTVBURUQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTENCiMgOSAgICA0MzcgUkVTSVNUSU5HIEFSUkVTVCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDEwMzgNCiMgMTAgICAgNDM4IFJFQ0tMRVNTIERSSVZJTkcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjg0DQojIDExICAgIDQzOSBGQUxTRSBQT0xJQ0UgUkVQT1JUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDE4Mg0KIyAxMiAgICA0NDYgUEVUVFkgVEhFRlQgLSBBVVRPIFJFUEFJUiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDgNCiMgMTMgICAgNjIyIEJBVFRFUlkgT04gQSBGSVJFRklHSFRFUiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjU3DQojIDE0ICAgIDYyMyBCQVRURVJZIFBPTElDRSAoU0lNUExFKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjU2NQ0KIyAxNSAgICA2MjQgQkFUVEVSWSAtIFNJTVBMRSBBU1NBVUxUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzQ4NDINCiMgMTYgICAgNjI1IE9USEVSIEFTU0FVTFQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0MjQ2DQojIDE3ICAgIDYyNiBJTlRJTUFURSBQQVJUTkVSIC0gU0lNUExFIEFTU0FVTFQgICAgICAgICAgICAgICAgICAgICAgICA0NjcxMg0KIyAxOCAgICA2MjcgQ0hJTEQgQUJVU0UgKFBIWVNJQ0FMKSAtIFNJTVBMRSBBU1NBVUxUICAgICAgICAgICAgICAgICAgIDM1NTgNCiMgMTkgICAgNjQ3IFRIUk9XSU5HIE9CSkVDVCBBVCBNT1ZJTkcgVkVISUNMRSAgICAgICAgICAgICAgICAgICAgICAgICAgNzkxDQojIDIwICAgIDY0OSBET0NVTUVOVCBGT1JHRVJZIC8gU1RPTEVOIEZFTE9OWSAgICAgICAgICAgICAgICAgICAgICAgICAgMzM3Mw0KIyAyMSAgICA2NTEgRE9DVU1FTlQgV09SVEhMRVNTICgkMjAwLjAxICYgT1ZFUikgICAgICAgICAgICAgICAgICAgICAgICAgNzMNCiMgMjIgICAgNjUyIERPQ1VNRU5UIFdPUlRITEVTUyAoJDIwMCAmIFVOREVSKSAgICAgICAgICAgICAgICAgICAgICAgICAgIDI3DQojIDIzICAgIDY1MyBDUkVESVQgQ0FSRFMsIEZSQVVEIFVTRSAoJDk1MC4wMSAmIE9WRVIpICAgICAgICAgICAgICAgICAgIDExMQ0KIyAyNCAgICA2NTQgQ1JFRElUIENBUkRTLCBGUkFVRCBVU0UgKCQ5NTAgJiBVTkRFUiAgICAgICAgICAgICAgICAgICAgICAgOTINCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyNSAgICA2NjAgQ09VTlRFUkZFSVQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMTkNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyNiAgICA2NjEgVU5BVVRIT1JJWkVEIENPTVBVVEVSIEFDQ0VTUyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA1MjMNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyNyAgICA2NjIgQlVOQ08sIEdSQU5EIFRIRUZUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDYxODUNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyOCAgICA2NjQgQlVOQ08sIFBFVFRZIFRIRUZUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDIwMjcNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyOSAgICA2NjYgQlVOQ08sIEFUVEVNUFQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzMjQNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzMCAgICA2NjggRU1CRVpaTEVNRU5ULCBHUkFORCBUSEVGVCAoJDk1MC4wMSAmIE9WRVIpICAgICAgICAgICAgICAgIDQxNzgNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzMSAgICA2NzAgRU1CRVpaTEVNRU5ULCBQRVRUWSBUSEVGVCAoJDk1MCAmIFVOREVSKSAgICAgICAgICAgICAgICAgICAxNTANCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzMiAgICA3NDAgVkFOREFMSVNNIC0gRkVMT05ZICgkNDAwICYgT1ZFUiwgQUxMIENIVVJDSCBWQU5EQUxJU01TKSAgNjEwOTQNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzMyAgICA3NDUgVkFOREFMSVNNIC0gTUlTREVBTUVBTk9SICgkMzk5IE9SIFVOREVSKSAgICAgICAgICAgICAgICAgMjUzODENCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzNCAgICA3NTMgRElTQ0hBUkdFIEZJUkVBUk1TL1NIT1RTIEZJUkVEICAgICAgICAgICAgICAgICAgICAgICAgICAgIDI3MjUNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzNSAgICA3NTUgQk9NQiBTQ0FSRSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0NzENCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzNiAgICA3NTYgV0VBUE9OUyBQT1NTRVNTSU9OL0JPTUJJTkcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNDENCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzNyAgICA3NjAgTEVXRC9MQVNDSVZJT1VTIEFDVFMgV0lUSCBDSElMRCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODcNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzOCAgICA3NjIgTEVXRCBDT05EVUNUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA3MTQNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzOSAgICA3NjMgU1RBTEtJTkcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA2NjYNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0MCAgICA4MDUgUElNUElORyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxNDENCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0MSAgICA4MDYgUEFOREVSSU5HICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxNDENCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0MiAgICA4MTAgU0VYLFVOTEFXRlVMKElOQyBNVVRVQUwgQ09OU0VOVCwgUEVORVRSQVRJT04gVy8gRlJHTiBPQkogIDEwODENCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQzICAgIDgxMiBDUk0gQUdOU1QgQ0hMRCAoMTMgT1IgVU5ERVIpICgxNC0xNSAmIFNVU1AgMTAgWVJTIE9MREVSKSAgMTc3MQ0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNDQgICAgODEzIENISUxEIEFOTk9ZSU5HICgxN1lSUyAmIFVOREVSKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMDQ5DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0NSAgICA4MTQgQ0hJTEQgUE9STk9HUkFQSFkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyNzYNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQ2ICAgIDgyMiBIVU1BTiBUUkFGRklDS0lORyAtIENPTU1FUkNJQUwgU0VYIEFDVFMgICAgICAgICAgICAgICAgICAgIDQ3OQ0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNDcgICAgODMwIElOQ0VTVCAoU0VYVUFMIEFDVFMgQkVUV0VFTiBCTE9PRCBSRUxBVElWRVMpICAgICAgICAgICAgICAgICA2DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0OCAgICA4NDAgQkVBU1RJQUxJVFksIENSSU1FIEFHQUlOU1QgTkFUVVJFIFNFWFVBTCBBU1NMVCBXSVRIIEFOSU0gICAgIDkNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQ5ICAgIDg0NSBTRVggT0ZGRU5ERVIgUkVHSVNUUkFOVCBPVVQgT0YgQ09NUExJQU5DRSAgICAgICAgICAgICAgICAgIDk2Ng0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTAgICAgODUwIElOREVDRU5UIEVYUE9TVVJFICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMjAyDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA1MSAgICA4NjAgQkFUVEVSWSBXSVRIIFNFWFVBTCBDT05UQUNUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQxNjQNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDUyICAgIDg2NSBEUlVHUywgVE8gQSBNSU5PUiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMg0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTMgICAgODcwIENISUxEIEFCQU5ET05NRU5UICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDI2DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA1NCAgICA4ODAgRElTUlVQVCBTQ0hPT0wgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTMNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDU1ICAgIDg4MiBJTkNJVElORyBBIFJJT1QgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyMg0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTYgICAgODg0IEZBSUxVUkUgVE8gRElTUEVSU0UgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA2DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA1NyAgICA4ODYgRElTVFVSQklORyBUSEUgUEVBQ0UgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDE1MTQNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDU4ICAgIDg4OCBUUkVTUEFTU0lORyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxODQyOA0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNTkgICAgODkwIEZBSUxVUkUgVE8gWUlFTEQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxNzE0DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA2MCAgICA5MDAgVklPTEFUSU9OIE9GIENPVVJUIE9SREVSICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDYzODENCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDYxICAgIDkwMSBWSU9MQVRJT04gT0YgUkVTVFJBSU5JTkcgT1JERVIgICAgICAgICAgICAgICAgICAgICAgICAgICAxMTc0OA0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjIgICAgOTAyIFZJT0xBVElPTiBPRiBURU1QT1JBUlkgUkVTVFJBSU5JTkcgT1JERVIgICAgICAgICAgICAgICAgICAgOTIxDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA2MyAgICA5MDMgQ09OVEVNUFQgT0YgQ09VUlQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDI3MjINCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDY0ICAgIDkwNCBGSVJFQVJNUyBFTUVSR0VOQ1kgUFJPVEVDVElWRSBPUkRFUiAoRklSRUFSTVMgRVBPKSAgICAgICAgICAgNQ0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjUgICAgOTA2IEZJUkVBUk1TIFJFU1RSQUlOSU5HIE9SREVSIChGSVJFQVJNUyBSTykgICAgICAgICAgICAgICAgICAgICA0DQoNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDY2ICAgIDkxMCBLSUROQVBQSU5HICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDgxMg0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNjcgICAgOTIwIEtJRE5BUFBJTkcgLSBHUkFORCBBVFRFTVBUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjMyDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA2OCAgICA5MjEgSFVNQU4gVFJBRkZJQ0tJTkcgLSBJTlZPTFVOVEFSWSBTRVJWSVRVREUgICAgICAgICAgICAgICAgICAxMTgNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDY5ICAgIDkyMiBDSElMRCBTVEVBTElORyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQ1OQ0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzAgICAgOTI0IFRFTEVQSE9ORSBQUk9QRVJUWSAtIERBTUFHRSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA3DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA3MSAgICA5MjggVEhSRUFURU5JTkcgUEhPTkUgQ0FMTFMvTEVUVEVSUyAgICAgICAgICAgICAgICAgICAgICAgICAgICA0ODMNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDcyICAgIDkzMCBDUklNSU5BTCBUSFJFQVRTIC0gTk8gV0VBUE9OIERJU1BMQVlFRCAgICAgICAgICAgICAgICAgICAxOTI4Nw0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzMgICAgOTMxIFJFUExJQ0EgRklSRUFSTVMoU0FMRSxESVNQTEFZLE1BTlVGQUNUVVJFIE9SIERJU1RSSUJVVEUpICAgIDEzDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA3NCAgICA5MzIgUEVFUElORyBUT00gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzODENCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDc1ICAgIDkzMyBQUk9XTEVSICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDIwMg0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzYgICAgOTQwIEVYVE9SVElPTiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyMDMzDQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA3NyAgICA5NDIgQlJJQkVSWSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDgNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDc4ICAgIDk0MyBDUlVFTFRZIFRPIEFOSU1BTFMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDI2OQ0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNzkgICAgOTQ0IENPTlNQSVJBQ1kgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDI0DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4MCAgICA5NDYgT1RIRVIgTUlTQ0VMTEFORU9VUyBDUklNRSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDY5NjcNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDgxICAgIDk0OCBCSUdBTVkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNw0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODIgICAgOTQ5IElMTEVHQUwgRFVNUElORyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDk1DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4MyAgICA5NTAgREVGUkFVRElORyBJTk5LRUVQRVIvVEhFRlQgT0YgU0VSVklDRVMsIE9WRVIgJDk1MC4wMSAgICAgICAgNzgNCiMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDg0ICAgIDk1MSBERUZSQVVESU5HIElOTktFRVBFUi9USEVGVCBPRiBTRVJWSUNFUywgJDk1MCAmIFVOREVSICAgICAgIDMzNw0KIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODUgICAgOTU0IENPTlRSSUJVVElORyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQ1DQojICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4NiAgICA5NTYgTEVUVEVSUywgTEVXRCAgLSAgVEVMRVBIT05FIENBTExTLCBMRVdEICAgICAgICAgICAgICAgICAgIDg3MTINCg0K</div>
 
 
 
